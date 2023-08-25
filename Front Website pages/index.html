@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>FIRST WEBSITE OF EDUCATION</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,700&family=Roboto+Mono:ital,wght@0,200;1,100&family=Ubuntu&family=Ubuntu+Condensed&display=swap');
+
+        * {
+            margin: 0;
+            /* font-family: 'Ubuntu', sans-serif;*/
+            padding: 0;
+        }
+
+        .logo {
+            width: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .logo img {
+           
+            border: 3px solid white;
+            border-radius: 45px;
+
+            width: 78px;
+height: 49px;
+        }
+
+        * {
+            margin: 0;
+            font-family: 'Ubuntu', sans-serif;
+            padding: 0;
+        }
+
+        .section {
+            font-family: 'Merriweather', serif;
+
+        }
+
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: sticky;
+            top: 0px;
+            cursor: pointer;
+            height: 71px;
+        }
+
+        .nav-list {
+            width: 30%;
+            display: flex;
+            align-items: center;
+            font-size: 20px;
+        }
+
+        .nav-list li {
+            list-style: none;
+            padding: 26px 30px;
+        }
+
+
+        .nav-list li a {
+            text-decoration: none;
+            color: white;
+            display: flex;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .nav-list li a:hover {
+            color: rgb(193, 165, 54);
+        }
+
+        .rightNav {
+
+            width: 30%;
+            text-align: right;
+            padding: 0px 23px;
+        }
+
+        #Search {
+            padding: 5px;
+            font-size: 17px;
+            border: 2px solid rgb(6, 112, 233);
+            border-radius: 9px;
+
+
+        }
+
+        .background {
+            background: rgba(0, 0, 0, 0.7) url("../img/bg.jpg");
+            background-size: cover;
+            background-blend-mode: darken;
+        }
+
+        .box-main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: rgb(15, 14, 14);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            max-width: 50%;
+            margin: auto;
+            height: 70%;
+
+        }
+
+        .FirstSection {
+            height: 80vh;
+            background: #18c3835c;
+        }
+
+        .Firsthalf {
+            width: 80%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .Secondhalf {
+            width: 30%;
+
+        }
+
+        .Secondhalf img {
+            width: 96%;
+            padding: 4px 3px;
+            border: 2px solid white;
+            border-radius: 150px;
+            display: block;
+
+        }
+
+        .text-big {
+            font-size: 45px;
+            text-align: center;
+        }
+
+        .text-small {
+            font-size: 20px;
+
+        }
+
+        .btn {
+
+            padding: 1px 21px;
+            margin: 9px 4px;
+            height: 28px;
+            border: 2px solid black;
+            border-radius: 8px;
+            background: none;
+            color: rgb(22, 13, 13);
+            cursor: pointer;
+            font-size: 20px;
+        }
+
+        .btn-sm {
+            padding: 0px 21px;
+            width: -17px;
+            height: 31px;
+            border: 2px solid rgb(244, 244, 246);
+            border-radius: 6px;
+            background: none;
+            color: white;
+            cursor: pointer;
+        }
+
+        .btn-sm {
+            padding: 6px 10px;
+            vertical-align: middle;
+            font-size: 16px;
+
+        }
+
+        .section {
+            height: 350px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            max-width: 80%;
+            margin: auto;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+        }
+
+        .sectionleft {
+            height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            max-width: 80%;
+            margin: auto;
+            flex-direction: row-reverse;
+            font-family: 'Merriweather', serif
+        }
+
+        .paracs {
+            padding: 0px 65px;
+
+        }
+
+        .sectionTag {
+            font-size: 41px;
+        }
+
+        .sectionsubTag {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 12px 2px;
+            font-size: 23px;
+            font-family: 'ubuntu', sans-serif;
+        }
+
+        .thumbanail img {
+            border-radius: 36px;
+            border: 2px solid black;
+            height: 177px;
+        }
+
+        .contact {
+            background-color: #d0cece5a;
+            height: 599px;
+
+        }
+
+
+        .text-center {
+
+            text-align: center;
+            padding: 0px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 33px;
+            margin-top: 10px;
+
+        }
+
+        .form {
+            max-width: 344px;
+            margin: auto;
+            margin: 5p;
+            margin-top: 2px;
+            padding: 2px 14px;
+        }
+
+        .form input {
+            width: 100%;
+            border: 2px solid black;
+            border-radius: 6px;
+            padding: 4px;
+            font-size: 15px;
+            margin: 22px 0px;
+
+        }
+
+        .btn-dark {
+
+
+            color: black;
+            border-radius: 8px;
+            cursor: pointer;
+            width: 81px;
+            height: 24px;
+            border: 2px solid black;
+            margin: 27px 0px;
+            border-radius: 6px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .text-footer {
+            text-align: center;
+            padding: 10px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            align-items:center;
+            justify-content: center;
+        }
+        .background{
+            background-color: #2b2a2a;
+            color: white;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list ">
+            <div class="logo"><img src="img/images.jpg" alt="logo"></div>
+            <li> <a href="#Home">Home</a></li>
+            <li> <a href="#About">About</a></li>
+            <li> <a href="#Services">Services</a></li>
+            <li> <a href="#Contact">Contact me</a></li>
+        </ul>
+
+
+        <div class="rightNav">
+            <input type="text" name="Search" id="Search">
+            <button class="btn-sm">Search</button>
+        </div>
+    </nav>
+    <section class="backgrouns FirstSection">
+        <div class="box-main">
+            <div class="Firsthalf">
+                <p class="text-big">The feature of education is here</p>
+                <p class="text-small">Hello and welcome to this educational website which is made of people</p>
+
+                <div class="buttons">
+                    <button class="btn">Subscribe</button>
+                    <button class="btn">Watche videos</button>
+                </div>
+            </div>
+
+            <div class="Secondhalf">
+                <img src="img/images.jpg" alt="Laptop image">
+            </div>
+        </div>
+
+    </section>
+
+    <section class="section">
+        <div class="paracs">
+            <p class="sectionTag">Meaning of Education</p>
+            <p class="sectionsubTag">Education, training imply a discipline and development by means of study and
+                learning. Education is the development of the abilities of the mind (learning to know): a liberal
+                education. Training is practical education (learning to do) or practice, usually under supervision, in
+                some art, trade, or profession: training in art, teacher training. Education, culture are often used
+                interchangeably to mean the results of schooling. Education, however, suggests chiefly the information
+                acquired. Culture is a mode of thought and feeling encouraged by education..</p>
+            <hr>
+        </div>
+        <div class="thumbanail">
+            <img src="https://source.unsplash.com/900x900/?html,apple" alt="Laptop image" class="imgfluid"
+                style="height:270px ">
+        </div>
+    </section>
+
+    <section class="sectionleft">
+        <div class="paracs">
+            <p class="sectionTag">Education in India</p>
+            <p class="sectionsubTag">Up until 1976, education policies and implementation were determined legally by
+                each of India's constitutional states. The 42nd amendment to the constitution in 1976 made education a
+                'concurrent subject'. From this point on the central and state governments shared formal responsibility
+                for funding and administration of education. In a country as large as India, now with 28 states and
+                eight union territories, this means that the potential for variations between states in the policies,
+                plans, programs and initiatives for elementary education is vast. Periodically, national policy
+                frameworks are created to guide states in their creation of state-level programs and policies.</p>
+            <hr>
+        </div>
+        <div class="thumbanail">
+            <img src="https://source.unsplash.com/900x900/?css,apple" alt=" Electric image" class="imgfluid"
+                style="height:270px ">
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="paracs">
+            <p class="sectionTag">Purpose of Education</p>
+            <p class="sectionsubTag">Malala, the activist for girls’ education. Malala jumped onto the international
+                stage in 2012. After a Taliban shot her in the head for defying the group. It was due to speaking out
+                about education for girls and women.
+                According to her, the purpose of education is to create a capable society. The ability to think and
+                progressive attitudes among people.
+                While defending the education for girls. That experience did not stop her and she continued with her
+                mission. Following her recovery and relocation to the UK. Malala received the Nobel Peace Prize in 2014.
+                To this day, she remains the youngest person to win it.
+                .”
+            </p>
+
+        </div>
+
+        <div class="thumbanail">
+            <img src="https://source.unsplash.com/900x900/?javascript,apple" alt="Nature image" class="imgfluid"
+                style="height:270px ">
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <section class="contact">
+        <h1 class="text-center">Contact us :</h1>
+        <div class="form">
+            <input class="form-input" type="text" name=" name" id="name" placeholder="Enter your name">
+            <input class="form-input" type="phone" name=" name" id="Enter your Phone number" placeholder="Phone number">
+            <input class="form-input" type="e-mail" name=" name" id="Enter your e-mail" placeholder="E-mail">
+            <textarea name="text" id="text" cols="30" rows="10" placeholder="Enter your information" width="400px"
+                height="180px"></textarea>
+            <button class="btn-dark">Submit</button>
+        </div>
+    </section>
+    <footer class="background">
+        <p class="text-footer" >
+            Copyright &copy; www.veducate.com
+        </p>
+    </footer>
+</body>
+
+</html>
